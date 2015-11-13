@@ -1,6 +1,12 @@
 # ZFReOrderTableView
 Can reorder the sections and rows.
 
+## Example:
+
+<p align="center" >
+<img src="https://github.com/WZF-Fei/ZFReOrderTableView/tree/master/ZFReOrderTableViewTests/ZFReOrderTableView.gif" width="266" height="500"/>
+</p>
+
 ##Usage
 
 Copy ZFReOrderTableView.h and ZFReOrderTableView.m in your project.
