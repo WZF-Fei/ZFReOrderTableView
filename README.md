@@ -1,6 +1,8 @@
 # ZFReOrderTableView
 Can reorder the sections and rows.
 
+实现对不同section或row重新排序。
+
 ## Example:
 
 <p align="center" >
