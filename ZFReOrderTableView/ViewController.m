@@ -29,7 +29,7 @@
     
     self.objects = [[NSMutableArray alloc] init];
     
-    NSMutableArray *section1 = [self newSectionWithIndex:1 withCellCount:10];
+    NSMutableArray *section1 = [self newSectionWithIndex:1 withCellCount:0];
     NSMutableArray *section2 = [self newSectionWithIndex:2 withCellCount:20];
     NSMutableArray *section3 = [self newSectionWithIndex:3 withCellCount:0];
     [self.objects addObject:section1];
@@ -122,7 +122,7 @@
         leftLine.backgroundColor = [UIColor greenColor];
         
         UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.view.bounds.size.width - 100, 0, 100, SECTION_HEIGHT)];
-        label.text = @"清空";
+        label.text = @"⭐️";
         label.textAlignment = NSTextAlignmentCenter;
         label.font = [UIFont systemFontOfSize:14];
         [view addSubview:label];
