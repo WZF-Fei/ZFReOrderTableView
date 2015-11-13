@@ -1,11 +1,14 @@
 # ZFReOrderTableView
 Can reorder the sections and rows.
 
-##Useage
+##Usage
 
-copy ZFReOrderTableView.h and ZFReOrderTableView.m in your project.
+Copy ZFReOrderTableView.h and ZFReOrderTableView.m in your project.
 
 ```
+    const CGFloat Width = self.view.bounds.size.width;
+    const CGFloat Height = self.view.bounds.size.height;
+    
     ZFReOrderTableView *ReOrderView = [[ZFReOrderTableView alloc] initWithFrame:CGRectMake(0, 20, Width, Height - 20)
                                                                     withObjects:self.objects
                                                                      canReorder:YES];
@@ -13,3 +16,9 @@ copy ZFReOrderTableView.h and ZFReOrderTableView.m in your project.
     ReOrderView.tableView.dataSource = self;
     [self.view addSubview:ReOrderView];
 ```
+
+if you want't drag the UITableViewCell to reorder the cell,you can set the methond of canReorder NO.
+
+##License
+
+Usage is provided under the MIT License. See LICENSE for the full details.
